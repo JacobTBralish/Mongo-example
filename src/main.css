@@ -1,0 +1,71 @@
+.formContainer {
+  margin-top: 40px;
+}
+
+.todoContainer {
+  margin: 20px auto 0 auto;
+  display: flex;
+  width: 50%;
+  height: 10%;
+  border: 1px lightgrey solid;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.todoTitleContainer {
+  font-size: 16px;
+  border-bottom: 1px lightgrey solid;
+  background: lightgrey;
+  height: 25%;
+  /* line-height: 32.5px; */
+}
+
+.todoTitleContainer > h2 {
+  margin: 10px auto;
+}
+
+.todoTimeContainer {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.todoTimeContainer > p {
+  margin: 6px;
+}
+
+.todoBodyContainer {
+  font-size: 14px;
+}
+
+.buttonCluster {
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+input,
+textarea {
+  border: 1px lightslategrey solid;
+  margin: 6px;
+}
+button {
+  width: 60px;
+  height: 30px;
+  border-radius: 2px;
+  margin: 10px;
+}
+#submitButton {
+  border: 1px solid lightgreen;
+  background: lightgreen;
+}
+
+#cancelButton,
+#deleteButton {
+  background: red;
+  border: 1px solid red;
+}
+
+#editButton {
+  background: lightskyblue;
+  border: 1px solid lightskyblue;
+}
